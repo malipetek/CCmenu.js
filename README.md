@@ -31,3 +31,4 @@ At the end it should look like this:
       }},
     ]);
 ```
+Here is a working pen for you: http://codepen.io/malipetek/pen/amkzGm
