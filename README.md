@@ -17,10 +17,10 @@ or a JQuery selector like:
 $('div')
 ```
     
-    ```Array of menu items```: this array should contain objects like this one:
-    ```
-    {item: "some text", callBack: function(targetElement){something to do when clicked} }
-    ```
+```Array of menu items```: this array should contain objects like this one:
+```
+{item: "some text", callBack: function(targetElement){something to do when clicked} }
+```
     
 At the end it should look like this:
 ```
