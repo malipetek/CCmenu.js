@@ -21,7 +21,7 @@
 	}
 	var CCmenuCoreObject = function(Element, menuNcallBack, index) {
 		this.rightOpen = false;
-		this.body = _('body');
+		this.body = document.getElementsByTagName('body')[0];
 		this.menuNcallBack = menuNcallBack;
 		this.element = Element;
 		this.menu = undefined;
