@@ -8,11 +8,18 @@ Here is an option for you. Simply include CustomContextMenu.js on your page and 
 CCmenu(Selector, [Array of menu items]); 
 ```
     
-    Selector: this can be a html node like ```document.getElementById("blabla")```, or a Jquery selector like ```$('div')```.
+    Selector: this can be a html node like 
+    ```
+    document.getElementById("blabla")
+    ```
+    or a JQuery selector like 
+    ```
+    $('div')
+    ```
     
     Array of menu items: this array should contain objects like this one:
     ```
-    {item: "some text", callBack: function(targetElement){something to do when clicked} }.
+    {item: "some text", callBack: function(targetElement){something to do when clicked} }
     ```
     
 At the end it should look like this:
