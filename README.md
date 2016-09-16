@@ -10,7 +10,7 @@ Here is an option for you. Simply include CustomContextMenu.js on your page and 
     {item: "some text", callback: function(targetElement){something to do when clicked} }.
     
     At the end it should look like this:
-... 
+'''
     CCmenu($('.class'), [
   {
       item: "some text", 
@@ -28,4 +28,4 @@ Here is an option for you. Simply include CustomContextMenu.js on your page and 
       something to do when clicked3
       }},
     ]);
-...
+'''
