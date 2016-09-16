@@ -8,7 +8,7 @@ Here is an option for you. Simply include CustomContextMenu.js on your page and 
     Selector: this can be a html node like ```document.getElementById("blabla")```, or a Jquery selector like ```$('div')```.
     Array of menu items: this array should contain objects like this one:
     ```
-    {item: "some text", callback: function(targetElement){something to do when clicked} }.
+    {item: "some text", callBack: function(targetElement){something to do when clicked} }.
     ```
     
 At the end it should look like this:
@@ -16,19 +16,24 @@ At the end it should look like this:
     CCmenu($('.class'), [
   {
       item: "some text", 
-      callback: function(targetElement){
+      callBack: function(targetElement){
       something to do when clicked
       }},
   {
       item: "some text2", 
-      callback: function(targetElement){
+      callBack: function(targetElement){
       something to do when clicked2
       }},
   {
       item: "some text3", 
-       callback: function(targetElement){
+       callBack: function(targetElement){
       something to do when clicked3
       }},
     ]);
 ```
 Here is a working pen for you: http://codepen.io/malipetek/pen/amkzGm
+
+You can include the file by pasting this to head section:
+```
+https://cdn.rawgit.com/malipetek/CustomContextMenuJS/CustomContextMenu.js
+```
