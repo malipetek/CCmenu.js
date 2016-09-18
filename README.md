@@ -46,5 +46,5 @@ Here is a working pen for you: http://codepen.io/malipetek/pen/amkzGm
 
 You can include the file by pasting this to head section:
 ```
-<script src="https://cdn.rawgit.com/malipetek/CustomContextMenuJS/5fd4169851dd52aaa45e9cb835992bac582e2c17/CustomContextMenu.js"> </script>
+<script src="https://cdn.rawgit.com/malipetek/CCmenu.js/master/CustomContextMenu.js"> </script>
 ```
