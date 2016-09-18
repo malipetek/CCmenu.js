@@ -4,7 +4,7 @@
 		var style = document.createElement("style");
 		// WebKit hack :(
 		style.appendChild(document.createTextNode(
-			".rightclickmenu {  min-width: 100px;	    max-width: 300px;	}		.rightitem {	    border-bottom: 1px solid #888888;	    font-size: medium;	    wrap: none;	}	.rightclickmenu-mobile{	  width: 80%;	  max-width: none;	  left: 10%;	  top: 20%;	  max-height: 70%;	  overflow-y: scroll;	}	.rightitem-mobile{	  font-size: xx-large;	}		.rightitem:hover {  background-color: #99e6ff;"
+			"html{width: 100%; height: 100%;} body{width:100%; height: 100%;} .rightclickmenu {  min-width: 100px;	    max-width: 300px;	}		.rightitem {	    border-bottom: 1px solid #888888;	    font-size: medium;	    wrap: none;	}	.rightclickmenu-mobile{	  width: 80%;	  max-width: none;	  left: 10%;	  top: 20%;	  max-height: 70%;	  overflow-y: scroll;	}	.rightitem-mobile{	  font-size: xx-large;	}		.rightitem:hover {  background-color: #99e6ff;"
 		));
 		// Add the <style> element to the page
 		document.head.appendChild(style);
