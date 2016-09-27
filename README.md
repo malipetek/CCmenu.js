@@ -1,5 +1,5 @@
 # CustomContextMenuJS
-ContextMenuSimplifiedForNoobs
+Context Menu Simplified For Front End
 
 You want to do add custom contextmenu to some item on your webpage? 
 You dont want to bother with styling and other stuff?
