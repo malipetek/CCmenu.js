@@ -48,3 +48,10 @@ You can include the file by pasting this to head section:
 ```
 <script src="https://cdn.rawgit.com/malipetek/CCmenu.js/master/CustomContextMenu.js"> </script>
 ```
+
+
+>Please note that these keywords are occupied by this module in global/window environment: <br/>
+>**"CCmenu", "CCmenuCoreObject", "CCmenuGlobalArray".**
+>
+>Please also note that these CSS classnames will be occupied by inserted CSS: <br/>
+>**"rightclickmenu", "rightitem", "rightclickmenu-mobile", "rightitem-mobile", "rightitem:hover".**
