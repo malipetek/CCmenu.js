@@ -134,6 +134,8 @@ var CCmenuCoreObject = function(Element, menuNcallBack, index) {
 			backPlate.style.height = '100%';
 			backPlate.style.position = 'fixed';
 			backPlate.style.opacity = '0.1';
+			backPlate.style.left = '0px';
+			backPlate.style.top = '0px';
 			backPlate.style.backgroundColor = 'white';
 			return backPlate;
 		}).bind(this)();
