@@ -68,7 +68,7 @@ var CCmenuCoreObject = function(Element, menuNcallBack, index) {
 
 		(function Attribute() {
 			if (this.element instanceof jQuery) {
-				console.log(this.element.attr('data-CCmenu'));
+				//	console.log(this.element.attr('data-CCmenu'));
 				if (this.element.attr('data-CCmenu') !== undefined) {
 					var index = parseInt(this.element.attr('data-CCmenu'), 10);
 					var ex = CCmenuGlobalArray[index].menuNcallBack;
@@ -81,9 +81,9 @@ var CCmenuCoreObject = function(Element, menuNcallBack, index) {
 				if (this.element.hasAttribute('data-CCmenu')) {
 					var index = parseInt(this.element.getAttribute('data-CCmenu'), 10);
 					var ex = CCmenuGlobalArray[index].menuNcallBack;
-					console.log(ex);
+					//	console.log(ex);
 					this.menuNcallBack = this.menuNcallBack.concat(ex);
-					console.log(this.menuNcallBack);
+					//		console.log(this.menuNcallBack);
 					this.element.setAttribute('data-CCmenu', this.id);
 				} else {
 					this.element.setAttribute('data-CCmenu', this.id);
@@ -181,9 +181,9 @@ var CCmenuCoreObject = function(Element, menuNcallBack, index) {
 					var id = this.id;
 					this.element.on('contextmenu', function(e) {
 						var atr = e.currentTarget.attributes.getNamedItem('data-ccmenu');
-						console.log(e.currentTarget);
-						console.log("atr " + atr.value);
-						console.log("id " + id);
+						/*	console.log(e.currentTarget);
+							console.log("atr " + atr.value);
+							console.log("id " + id);*/
 						if (atr.value == id) {
 							onContext(e.originalEvent);
 						}
@@ -194,9 +194,9 @@ var CCmenuCoreObject = function(Element, menuNcallBack, index) {
 					var id = this.id;
 					this.element.oncontextmenu = function(e) {
 						var atr = e.currentTarget.attributes.getNamedItem('data-ccmenu');
-						console.log(e.currentTarget);
-						console.log("atr " + atr.value);
-						console.log("id " + id);
+						/*	console.log(e.currentTarget);
+							console.log("atr " + atr.value);
+							console.log("id " + id);*/
 						if (atr.value == id) {
 							onContext(e);
 						}
